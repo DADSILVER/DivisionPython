@@ -1,4 +1,4 @@
 language: python
 
-script:
-    - python3 -m unittest test_division.py
+script:   
+	- pip install -r requirements.txt
