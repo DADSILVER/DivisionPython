@@ -1,4 +1,4 @@
 language: python
 
 script:
-	- pytest
+    - python3 -m unittest test_division.py
