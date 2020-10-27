@@ -18,7 +18,7 @@ class TestDivision(unittest.TestCase):
 		self.assertEqual(div(0,2),0)
 	
 	def test_div(self):
-		self.assertEqual(div(10,2,4),5)
+		self.assertEqual(div(10,2),5)
 
 if __name__ == "__main__:
 	unittest.main()
